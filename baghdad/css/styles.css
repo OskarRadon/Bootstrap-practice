@@ -128,10 +128,12 @@ hr {
 
 footer {
   margin-top: 20px;
-  background: url("http://www.bagdadmovies.com/images/bagdad_movies/lamp.png") no-repeat 10px 60%;
   background: linear-gradient(#4E1F08, #1D0D05);
   padding-top: 20px;
+}
 
+.lampBg {
+    background: url("http://www.bagdadmovies.com/images/bagdad_movies/lamp.png") no-repeat 10px 60%;
 }
 
 footer ul {
