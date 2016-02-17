@@ -72,3 +72,8 @@ select.form-control {
   width: 46%;
   margin: 4px;
 }
+
+  /*now playing*/
+.movieImg {
+  max-width: 100%;
+}
