@@ -47,8 +47,28 @@ body {
 
   /*Showtimes div*/
 
-.showtimes {
+.well {
   background-color: rgba(0,0,0,0.15);
   border: 1px solid rgba(255,255,255,0.25);
   border-radius: 0px;
+}
+
+select.form-control {
+  margin-bottom: 15px;
+}
+
+.tickets {
+  background-color: rgba(255,255,255,0.1);
+  text-align: center;
+  padding-top: 15px;
+}
+
+.btn {
+  background-color: #da7e25;
+  border: none;
+  border-bottom: 4px solid #834c16;
+  border-radius: 0px;
+  color: white;
+  width: 46%;
+  margin: 4px;
 }
