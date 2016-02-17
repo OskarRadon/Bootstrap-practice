@@ -1,6 +1,6 @@
 body {
   background-image: url("http://www.bagdadmovies.com/images/bagdad_movies/bg.jpg");
-  background-position: center;
+  background-position: top;
   /*background-size: cover;*/
   color: white;
   font-family: "Trebuchet MS",Arial,sans-serif;
@@ -19,13 +19,13 @@ body {
 .navbar {
   background-color: rgba(0, 0, 0, 0.54902);
   border: none;
-
 }
 
 .navbar button {
   border: none;
   margin-top: 20px;
 }
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: rgba(0, 0, 0, 0.54902);
@@ -44,6 +44,17 @@ body {
 }
 
   /*MAIN CONTENT*/
+
+  /*bagdad info div*/
+.col-md-4 .bagdadWell {
+  background-color: rgba(0, 0, 0, 0.54902);
+  border: none;
+}
+
+.bagdadImg {
+  margin-top: -40px;
+  width: 100%;
+}
 
   /*Showtimes div*/
 
@@ -89,4 +100,8 @@ select.form-control {
 
 .movieInfo p {
   margin-top: 1em;
+}
+
+.movie {
+  margin-bottom: 50px;
 }
