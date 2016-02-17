@@ -94,7 +94,11 @@ select.form-control {
 }
 
   /*now playing*/
-  
+
+hr {
+  border-color: rgba(255,255,255,0.25);
+}
+
 .movieImg {
   max-width: 100%;
 }
@@ -123,6 +127,7 @@ select.form-control {
   /*Footer*/
 
 footer {
+  margin-top: 20px;
   background: url("http://www.bagdadmovies.com/images/bagdad_movies/lamp.png") no-repeat 10px 60%;
   background: linear-gradient(#4E1F08, #1D0D05);
   padding-top: 20px;
