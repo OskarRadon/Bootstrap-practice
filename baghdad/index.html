@@ -33,20 +33,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-4 hidden-xs hidden-sm">
-          <div class="well bagdadWell">
-            <img src="http://www.bagdadmovies.com/images/bagdad_movies/marquee.png" alt="" class="bagdadImg"/>
-          </div>
-          <h3>About the Bagdad</h3>
-          <p>
-            Come experience our new 50% larger screen, 20,000-watt surround sound, state-of-the-art digital projector and new luxurious rocker seating at Portland’s Bagdad Theater!
-          </p>
-          <h3>Getting to the Bagdad</h3>
-          <p>
-            The Bagdad Theater is located in the heart of the Hawthorne District. Look for the large marquee sign!
-          </p>
-        </div>
-        <div class="col-md-8">
+        <div class="col-md-8 col-xs-12 pull-right">
           <div class="well showtimes">
             <div class="row">
               <div class="col-sm-6">
@@ -86,6 +73,7 @@
               </div>
             </div>
           </div>
+          <!-- now playing movie  -->
           <article class="movie">
             <div class="row">
               <div class="col-xs-4">
@@ -107,46 +95,108 @@
           </article>
               <hr>
               <!-- coming soon  -->
-
-          <div class="row">
-            <div class="col-xs-4">
-              <h2>Coming Soon</h2>
-              <img class="movieImg" src="http://www.bagdadmovies.com/system/uploads/assets/Movies/Cloverfield_Lane.png" alt="" />
+          <article class="movie">
+            <div class="row">
+              <div class="col-xs-4">
+                <h2>Coming Soon</h2>
+                <img class="movieImg" src="http://www.bagdadmovies.com/system/uploads/assets/Movies/Cloverfield_Lane.png" alt="" />
+              </div>
+              <div class="col-xs-8 movieInfo">
+                <h3>10 Cloverfield Lane</h3>
+                <h5>Starting on March 11th</h5>
+                <button type="button" class="btn btn-default">View Trailer</button>
+                <br>
+                <a href="#">10 Cloverfield Lane</a>
+                <br>
+                <a href="#">IMDB</a>
+                <p>
+                  Waking up from a car accident, a young woman finds herself in the basement of a man who says he's saved her life from a chemical attack that has left the outside uninhabitable.
+                </p>
+              </div>
             </div>
-            <div class="col-xs-8 movieInfo">
-              <h3>10 Cloverfield Lane</h3>
-              <h5>Starting on March 11th</h5>
-              <button type="button" class="btn btn-default">View Trailer</button>
-              <br>
-              <a href="#">10 Cloverfield Lane</a>
-              <br>
-              <a href="#">IMDB</a>
-              <p>
-                Waking up from a car accident, a young woman finds herself in the basement of a man who says he's saved her life from a chemical attack that has left the outside uninhabitable.
-              </p>
-            </div>
-          </div>
+          </article>
             <!-- coming soon part 2 Batman -->
-          <div class="row">
-            <div class="col-xs-4">
-              <img class="movieImg" src="http://www.bagdadmovies.com/system/uploads/assets/Movies/Batman-V-Superman-Batman-teaser-poster.jpg" alt="" />
+          <article class="movie">
+            <div class="row">
+              <div class="col-xs-4">
+                <img class="movieImg" src="http://www.bagdadmovies.com/system/uploads/assets/Movies/Batman-V-Superman-Batman-teaser-poster.jpg" alt="" />
+              </div>
+              <div class="col-xs-8 movieInfo">
+                <h3>Batman v Superman:Dawn of Justice (PG-13)</h3>
+                <h5>Starting on March 25th</h5>
+                <button type="button" class="btn btn-default">View Trailer</button>
+                <br>
+                <a href="#">Batman v Superman</a>
+                <br>
+                <a href="#">IMDB</a>
+                <p>
+                  Fearing the actions of Superman are left unchecked, Batman takes on Superman, while the world wrestles with what kind of a hero it really needs.
+                </p>
+              </div>
             </div>
-            <div class="col-xs-8 movieInfo">
-              <h3>Batman v Superman:Dawn of Justice (PG-13)</h3>
-              <h5>Starting on March 25th</h5>
-              <button type="button" class="btn btn-default">View Trailer</button>
-              <br>
-              <a href="#">Batman v Superman</a>
-              <br>
-              <a href="#">IMDB</a>
-              <p>
-                Fearing the actions of Superman are left unchecked, Batman takes on Superman, while the world wrestles with what kind of a hero it really needs.
-              </p>
-            </div>
+          </article>
+          <hr>
+          <h2>Prices</h2>
+          <p>
+            $9 per ticket – Adults 5 p.m. and later<br>
+            $7.50 per ticket – Adults before 5 p.m.<br>
+            $6 per ticket – children 12 years old and under
+            <ul>
+              <li><em>Minors are allowed only with a parent or guardian.</em></li>
+              <li><em>$1 online purchase fee per ticket</em></li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-md-4 col-xs-12 pull-left">
+          <div class="well hidden-xs hidden-sm bagdadWell">
+            <img src="http://www.bagdadmovies.com/images/bagdad_movies/marquee.png" alt="" class="bagdadImg"/>
           </div>
+          <h3>About the Bagdad</h3>
+          <p>
+            Come experience our new 50% larger screen, 20,000-watt surround sound, state-of-the-art digital projector and new luxurious rocker seating at Portland’s Bagdad Theater!
+          </p>
+          <h3>Getting to the Bagdad</h3>
+          <p>
+            The Bagdad Theater is located in the heart of the Hawthorne District. Look for the large marquee sign!
+          </p>
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="row">
+        <div class="col-md-4">
+          <h5>McMenamins Bagdad Theater</h5>
+          <p>
+            3702 SE Hawthorne Blvd<br>
+            Portland, OR 97214 <br>
+            (503) 467-7521
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h5>McMenamins Bagdad</h5>
+          <ul>
+            <li><a href="#">About the Bagdad</a></li>
+            <li><a href="#">Bagdad Pub</a></li>
+            <li><a href="#">Backstage Bar</a></li>
+            <li><a href="#">McMenamins Home</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Other McMenamins Movie Theaters</h5>
+          <ul>
+            <li><a href="#">Edgefield Power Station Theater</a></li>
+            <li><a href="#">Grand Lodge Theater</a></li>
+            <li><a href="#">Kennedy School Theater</a></li>
+            <li><a href="#">Mission Theater</a></li>
+            <li><a href="#">Old St. Francis Theater</a></li>
+            <li><a href="#">Olympic Club Theater</a></li>
+            <li><a href="#">St. Johns Theater</a></li>
+            <li><a href="#">View all McMenamins Theaters</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) !-->

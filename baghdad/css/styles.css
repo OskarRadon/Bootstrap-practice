@@ -6,6 +6,11 @@ body {
   font-family: "Trebuchet MS",Arial,sans-serif;
 }
 
+p, li a {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
   /*NAVBAR*/
 
 .navbar-brand {
@@ -32,11 +37,11 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #da7e25;
+  background-color: #da7e25;
 }
 
 .navbar-collapse .navbar-nav li a {
-    color: #da7e25;
+  color: #da7e25;
 }
 
 .navbar-collapse {
@@ -90,7 +95,11 @@ select.form-control {
 }
 
 .movieInfo h3 {
-  margin-top: 13%;
+  margin-top: 15%;
+}
+
+.movie:last-child h3 {
+  margin-top: 0;
 }
 
 .movieInfo a {
@@ -104,4 +113,22 @@ select.form-control {
 
 .movie {
   margin-bottom: 50px;
+}
+
+  /*Footer*/
+
+footer {
+  background: url("http://www.bagdadmovies.com/images/bagdad_movies/lamp.png") no-repeat 10px 60%;
+  background: linear-gradient(#4E1F08, #1D0D05);
+  padding-top: 20px;
+
+}
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer li a{
+  color: #da7e25;
 }
