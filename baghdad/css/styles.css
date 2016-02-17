@@ -77,3 +77,16 @@ select.form-control {
 .movieImg {
   max-width: 100%;
 }
+
+.movieInfo h3 {
+  margin-top: 13%;
+}
+
+.movieInfo a {
+  text-decoration: none;
+  color:  #da7e25;
+}
+
+.movieInfo p {
+  margin-top: 1em;
+}
