@@ -1,7 +1,7 @@
 body {
   background-image: url("http://www.bagdadmovies.com/images/bagdad_movies/bg.jpg");
   background-position: top;
-  /*background-size: cover;*/
+  background-size: cover;
   color: white;
   font-family: "Trebuchet MS",Arial,sans-serif;
 }
@@ -24,6 +24,10 @@ p, li a {
 .navbar {
   background-color: rgba(0, 0, 0, 0.54902);
   border: none;
+}
+
+.navbar ul li {
+  margin-top: 10px;
 }
 
 .navbar button {
@@ -90,6 +94,7 @@ select.form-control {
 }
 
   /*now playing*/
+  
 .movieImg {
   max-width: 100%;
 }
