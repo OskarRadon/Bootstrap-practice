@@ -2,7 +2,12 @@ body {
   background-image: url("http://www.bagdadmovies.com/images/bagdad_movies/bg.jpg");
   background-position: center;
   /*background-size: cover;*/
+  color: white;
+  font-family: "Trebuchet MS",Arial,sans-serif;
 }
+
+  /*NAVBAR*/
+
 .navbar-brand {
   width: 300px;
   height: 75px;
@@ -25,9 +30,6 @@ body {
 .navbar-default .navbar-toggle:focus {
   background-color: rgba(0, 0, 0, 0.54902);
 }
-/*.navbar button:active {
-  background: rgba(0, 0, 0, 0.54902);
-}*/
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #da7e25;
@@ -39,4 +41,14 @@ body {
 
 .navbar-collapse {
   border: none;
+}
+
+  /*MAIN CONTENT*/
+
+  /*Showtimes div*/
+
+.showtimes {
+  background-color: rgba(0,0,0,0.15);
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 0px;
 }
