@@ -6,6 +6,11 @@ body {
   font-family: "Trebuchet MS",Arial,sans-serif;
 }
 
+a:hover {
+  color: #EAB686;
+  text-decoration: none;
+}
+
 p, li a {
   font-size: 16px;
   line-height: 1.5;
@@ -28,6 +33,10 @@ p, li a {
 
 .navbar ul li {
   margin-top: 10px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #EAB686;
 }
 
 .navbar button {
@@ -89,7 +98,7 @@ select.form-control {
   border-bottom: 4px solid #834c16;
   border-radius: 0px;
   color: white;
-  width: 46%;
+  width: 40%;
   margin: 4px;
 }
 
@@ -119,7 +128,9 @@ hr {
 .movieInfo p {
   margin-top: 1em;
 }
-
+.movieInfo button{
+  width: 100px;
+}
 .movie {
   margin-bottom: 50px;
 }
